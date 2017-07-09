@@ -18,6 +18,8 @@ SOURCES += main.cpp \
 
 HEADERS += \
     E:/john/matlabcoder/codegen/dll/landwebercode/landwebercode.h \
+    Tikhonov/Tikhonov.h
+
 
     E:/john/matlabcoder/codegen/dll/Tikhonov/Tikhonov.h
 
@@ -33,3 +35,10 @@ LIBS += ./landwebercode/landwebercode.lib \
 
 #INCLUDEPATH += $$PWD/E:/john/matlabcoder/codegen/dll/Tikhonov
 #DEPENDPATH += $$PWD/E:/john/matlabcoder/codegen/dll/Tikhonov
+
+DISTFILES += \
+    b.txt \
+    L.txt \
+    Tikhonov/Tikhonov.lib \
+    Tikhonov/Tikhonov.dll
+
